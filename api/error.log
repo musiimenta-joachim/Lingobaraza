@@ -1,0 +1,1278 @@
+[14-Nov-2024 06:29:11 Europe/Berlin] 2024-11-14 06:29:11 - Received POST request - Data: Array
+(
+    [POST] => Array
+        (
+            [sentence] => I am going to town.
+            [language] => English
+        )
+
+    [FILES] => Array
+        (
+            [audio_file] => Array
+                (
+                    [name] => recorded_audio.ogg
+                    [full_path] => recorded_audio.ogg
+                    [type] => audio/ogg
+                    [tmp_name] => C:\xampp\tmp\php4997.tmp
+                    [error] => 0
+                    [size] => 57412
+                )
+
+        )
+
+)
+
+[14-Nov-2024 06:29:11 Europe/Berlin] 2024-11-14 06:29:11 - General error - Data: Array
+(
+    [error] => Unknown column 'id' in 'field list'
+)
+
+[14-Nov-2024 06:29:14 Europe/Berlin] 2024-11-14 06:29:14 - Received POST request - Data: Array
+(
+    [POST] => Array
+        (
+            [sentence] => I am going to town.
+            [language] => English
+        )
+
+    [FILES] => Array
+        (
+            [audio_file] => Array
+                (
+                    [name] => recorded_audio.ogg
+                    [full_path] => recorded_audio.ogg
+                    [type] => audio/ogg
+                    [tmp_name] => C:\xampp\tmp\php52EF.tmp
+                    [error] => 0
+                    [size] => 57412
+                )
+
+        )
+
+)
+
+[14-Nov-2024 06:29:14 Europe/Berlin] 2024-11-14 06:29:14 - General error - Data: Array
+(
+    [error] => Unknown column 'id' in 'field list'
+)
+
+[14-Nov-2024 06:33:38 Europe/Berlin] 2024-11-14 06:33:38 - Received POST request - Data: Array
+(
+    [POST] => Array
+        (
+            [sentence] => I am going to town.
+            [language] => English
+        )
+
+    [FILES] => Array
+        (
+            [audio_file] => Array
+                (
+                    [name] => recorded_audio.ogg
+                    [full_path] => recorded_audio.ogg
+                    [type] => audio/ogg
+                    [tmp_name] => C:\xampp\tmp\php5984.tmp
+                    [error] => 0
+                    [size] => 71206
+                )
+
+        )
+
+)
+
+[14-Nov-2024 06:33:38 Europe/Berlin] 2024-11-14 06:33:38 - Generated IDs - Data: Array
+(
+    [sentenceId] => sent_eng_00001
+    [voiceNoteId] => voice_eng_00001
+)
+
+[14-Nov-2024 06:33:38 Europe/Berlin] 2024-11-14 06:33:38 - FFmpeg not found - Data: Array
+(
+    [path] => /usr/bin/ffmpeg
+)
+
+[14-Nov-2024 06:55:50 Europe/Berlin] 2024-11-14 06:55:50 - Received POST request - Data: Array
+(
+    [POST] => Array
+        (
+            [sentence] => I am going to town.
+            [language] => English
+        )
+
+    [FILES] => Array
+        (
+            [audio_file] => Array
+                (
+                    [name] => recorded_audio.ogg
+                    [full_path] => recorded_audio.ogg
+                    [type] => audio/ogg
+                    [tmp_name] => C:\xampp\tmp\phpAD70.tmp
+                    [error] => 0
+                    [size] => 62349
+                )
+
+        )
+
+)
+
+[14-Nov-2024 06:55:50 Europe/Berlin] 2024-11-14 06:55:50 - Generated IDs - Data: Array
+(
+    [sentenceId] => sent_eng_00001
+    [voiceNoteId] => voice_eng_00001
+)
+
+[14-Nov-2024 06:55:50 Europe/Berlin] 2024-11-14 06:55:50 - FFmpeg conversion failed - Data: Array
+(
+    [command] => ../ffmpeg/ffmpeg.exe -i ^"../uploads/voice_eng_00001.ogg^" ^"../audio/voice_eng_00001.mp3^" 2^>^&1
+    [output] => Array
+        (
+        )
+
+    [return_var] => 1
+)
+
+[14-Nov-2024 07:06:31 Europe/Berlin] 2024-11-14 07:06:31 - Received POST request - Data: Array
+(
+    [POST] => Array
+        (
+            [sentence] => I am going to town.
+            [language] => English
+        )
+
+    [FILES] => Array
+        (
+            [audio_file] => Array
+                (
+                    [name] => recorded_audio.ogg
+                    [full_path] => recorded_audio.ogg
+                    [type] => audio/ogg
+                    [tmp_name] => C:\xampp\tmp\php748E.tmp
+                    [error] => 0
+                    [size] => 80804
+                )
+
+        )
+
+)
+
+[14-Nov-2024 07:06:31 Europe/Berlin] 2024-11-14 07:06:31 - Invalid mime type - Data: Array
+(
+    [mime] => video/webm
+)
+
+[14-Nov-2024 07:11:13 Europe/Berlin] 2024-11-14 07:11:13 - Received POST request - Data: Array
+(
+    [POST] => Array
+        (
+            [sentence] => I am going to town.
+            [language] => English
+        )
+
+    [FILES] => Array
+        (
+            [audio_file] => Array
+                (
+                    [name] => recorded_audio.ogg
+                    [full_path] => recorded_audio.ogg
+                    [type] => audio/ogg
+                    [tmp_name] => C:\xampp\tmp\phpC357.tmp
+                    [error] => 0
+                    [size] => 118723
+                )
+
+        )
+
+)
+
+[14-Nov-2024 07:11:13 Europe/Berlin] 2024-11-14 07:11:13 - Generated IDs - Data: Array
+(
+    [sentenceId] => sent_eng_00001
+    [voiceNoteId] => voice_eng_00001
+)
+
+[14-Nov-2024 07:11:13 Europe/Berlin] 2024-11-14 07:11:13 - Executing FFmpeg command - Data: Array
+(
+    [command] => "../ffmpeg/ffmpeg.exe" -y -i "../uploads/voice_eng_00001.ogg" -acodec libmp3lame -ar 44100 -ab 128k -ac 2 "../audio/voice_eng_00001.mp3" 2>&1
+)
+
+[14-Nov-2024 07:11:15 Europe/Berlin] 2024-11-14 07:11:15 - Database operation failed - Data: Array
+(
+    [error] => Unknown column 'language' in 'field list'
+)
+
+[14-Nov-2024 07:31:53 Europe/Berlin] 2024-11-14 07:31:53 - Received POST request - Data: Array
+(
+    [POST] => Array
+        (
+            [sentence] => I am going to town.
+            [language] => 1
+        )
+
+    [FILES] => Array
+        (
+            [audio_file] => Array
+                (
+                    [name] => recorded_audio.ogg
+                    [full_path] => recorded_audio.ogg
+                    [type] => audio/ogg
+                    [tmp_name] => C:\xampp\tmp\phpB090.tmp
+                    [error] => 0
+                    [size] => 56698
+                )
+
+        )
+
+)
+
+[14-Nov-2024 07:31:53 Europe/Berlin] 2024-11-14 07:31:53 - Generated IDs - Data: Array
+(
+    [sentenceId] => sent_1_00001
+    [voiceNoteId] => voice_1_00001
+)
+
+[14-Nov-2024 07:31:53 Europe/Berlin] 2024-11-14 07:31:53 - Executing FFmpeg command - Data: Array
+(
+    [command] => "../ffmpeg/ffmpeg.exe" -y -i "../uploads/voice_1_00001.ogg" -acodec libmp3lame -ar 44100 -ab 128k -ac 2 "../audio/voice_1_00001.mp3" 2>&1
+)
+
+[14-Nov-2024 07:31:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #4 cannot be passed by reference in C:\xampp\htdocs\Natural_Language\api\contributor\contribute.php:221
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Natural_Language\api\contributor\contribute.php on line 221
+[14-Nov-2024 08:21:11 Europe/Berlin] 2024-11-14 08:21:11 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am going to town.",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\phpD2B5.tmp",
+            "error": 0,
+            "size": 83665
+        }
+    }
+}
+[14-Nov-2024 08:21:11 Europe/Berlin] 2024-11-14 08:21:11 - Error processing request - Data: {
+    "error": "Unknown column 'id' in 'field list'",
+    "trace": "#0 C:\\xampp\\htdocs\\Natural_Language\\api\\contributor\\contribute.php(206): mysqli->prepare('INSERT INTO voi...')\n#1 {main}"
+}
+[14-Nov-2024 08:35:44 Europe/Berlin] 2024-11-14 08:35:44 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am going to town.",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php25E7.tmp",
+            "error": 0,
+            "size": 75045
+        }
+    }
+}
+[14-Nov-2024 08:35:45 Europe/Berlin] 2024-11-14 08:35:45 - Error processing request - Data: {
+    "error": "Column count doesn't match value count at row 1",
+    "trace": "#0 C:\\xampp\\htdocs\\Natural_Language\\api\\contributor\\contribute.php(194): mysqli->prepare('INSERT INTO voi...')\n#1 {main}"
+}
+[14-Nov-2024 08:49:34 Europe/Berlin] 2024-11-14 08:49:34 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am going to town.",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\phpCD79.tmp",
+            "error": 0,
+            "size": 57512
+        }
+    }
+}
+[14-Nov-2024 08:49:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #5 cannot be passed by reference in C:\xampp\htdocs\Natural_Language\api\contributor\contribute.php:199
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Natural_Language\api\contributor\contribute.php on line 199
+[14-Nov-2024 09:07:46 Europe/Berlin] 2024-11-14 09:07:46 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am going to town.",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php7842.tmp",
+            "error": 0,
+            "size": 55774
+        }
+    }
+}
+[14-Nov-2024 09:07:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #5 cannot be passed by reference in C:\xampp\htdocs\Natural_Language\api\contributor\contribute.php:199
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Natural_Language\api\contributor\contribute.php on line 199
+[14-Nov-2024 09:44:03 Europe/Berlin] 2024-11-14 09:44:03 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am going to town.",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\phpAE66.tmp",
+            "error": 0,
+            "size": 54783
+        }
+    }
+}
+[14-Nov-2024 13:13:22 Europe/Berlin] 2024-11-14 13:13:22 - Received POST request - Data: {
+    "POST": {
+        "sentence": "Hello world",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php53BE.tmp",
+            "error": 0,
+            "size": 99255
+        }
+    }
+}
+[14-Nov-2024 13:13:23 Europe/Berlin] 2024-11-14 13:13:23 - Error processing request - Data: {
+    "error": "Duplicate entry 'sent_1_0000' for key 'PRIMARY'",
+    "trace": "#0 C:\\xampp\\htdocs\\Natural_Language\\api\\contributor\\contribute.php(207): mysqli_stmt->execute()\n#1 {main}"
+}
+[14-Nov-2024 13:29:11 Europe/Berlin] 2024-11-14 13:29:11 - Received POST request - Data: {
+    "POST": {
+        "sentence": "Hello world",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\phpCCB4.tmp",
+            "error": 0,
+            "size": 77115
+        }
+    }
+}
+[14-Nov-2024 13:29:12 Europe/Berlin] 2024-11-14 13:29:12 - Error processing request - Data: {
+    "error": "Duplicate entry 'sent_1_0000' for key 'PRIMARY'",
+    "trace": "#0 C:\\xampp\\htdocs\\Natural_Language\\api\\contributor\\contribute.php(202): mysqli_stmt->execute()\n#1 {main}"
+}
+[14-Nov-2024 13:32:14 Europe/Berlin] 2024-11-14 13:32:14 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am gonna do ma thing regardless.",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php98C6.tmp",
+            "error": 0,
+            "size": 89791
+        }
+    }
+}
+[14-Nov-2024 13:32:14 Europe/Berlin] 2024-11-14 13:32:14 - Error processing request - Data: {
+    "error": "Duplicate entry 'sent_1_0000' for key 'PRIMARY'",
+    "trace": "#0 C:\\xampp\\htdocs\\Natural_Language\\api\\contributor\\contribute.php(208): mysqli_stmt->execute()\n#1 {main}"
+}
+[14-Nov-2024 13:33:36 Europe/Berlin] 2024-11-14 13:33:36 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am gonna do ma thing regardless.",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\phpD742.tmp",
+            "error": 0,
+            "size": 69202
+        }
+    }
+}
+[14-Nov-2024 13:33:36 Europe/Berlin] 2024-11-14 13:33:36 - Error processing request - Data: {
+    "error": "Duplicate entry 'sent_1_0000' for key 'PRIMARY'",
+    "trace": "#0 C:\\xampp\\htdocs\\Natural_Language\\api\\contributor\\contribute.php(208): mysqli_stmt->execute()\n#1 {main}"
+}
+[14-Nov-2024 13:35:50 Europe/Berlin] 2024-11-14 13:35:50 - Received POST request - Data: {
+    "POST": {
+        "sentence": "Hello world",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\phpE4E5.tmp",
+            "error": 0,
+            "size": 24402
+        }
+    }
+}
+[14-Nov-2024 13:35:50 Europe/Berlin] 2024-11-14 13:35:50 - Error processing request - Data: {
+    "error": "Duplicate entry 'sent_1_0000' for key 'PRIMARY'",
+    "trace": "#0 C:\\xampp\\htdocs\\Natural_Language\\api\\contributor\\contribute.php(209): mysqli_stmt->execute()\n#1 {main}"
+}
+[14-Nov-2024 13:41:21 Europe/Berlin] 2024-11-14 13:41:21 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am a boy",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\phpF2B9.tmp",
+            "error": 0,
+            "size": 49953
+        }
+    }
+}
+[14-Nov-2024 13:41:22 Europe/Berlin] 2024-11-14 13:41:22 - Error processing request - Data: {
+    "error": "Duplicate entry 'sent_1_0000' for key 'PRIMARY'",
+    "trace": "#0 C:\\xampp\\htdocs\\Natural_Language\\api\\contributor\\contribute.php(209): mysqli_stmt->execute()\n#1 {main}"
+}
+[14-Nov-2024 13:43:08 Europe/Berlin] 2024-11-14 13:43:08 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am a boy",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php94C2.tmp",
+            "error": 0,
+            "size": 54529
+        }
+    }
+}
+[14-Nov-2024 13:43:09 Europe/Berlin] 2024-11-14 13:43:09 - Error processing request - Data: {
+    "error": "Duplicate entry 'sent_1_0000' for key 'PRIMARY'",
+    "trace": "#0 C:\\xampp\\htdocs\\Natural_Language\\api\\contributor\\contribute.php(218): mysqli_stmt->execute()\n#1 {main}"
+}
+[14-Nov-2024 13:50:16 Europe/Berlin] 2024-11-14 13:50:16 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am a boy",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php1A9F.tmp",
+            "error": 0,
+            "size": 33171
+        }
+    }
+}
+[14-Nov-2024 13:50:16 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Natural_Language\api\contributor\contribute.php on line 121
+[14-Nov-2024 13:55:07 Europe/Berlin] 2024-11-14 13:55:07 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am going to town.",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php8A6E.tmp",
+            "error": 0,
+            "size": 42158
+        }
+    }
+}
+[14-Nov-2024 13:55:07 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Natural_Language\api\contributor\contribute.php on line 119
+[14-Nov-2024 13:58:39 Europe/Berlin] 2024-11-14 13:58:39 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am going to town.",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\phpC93E.tmp",
+            "error": 0,
+            "size": 148646
+        }
+    }
+}
+[14-Nov-2024 14:38:00 Europe/Berlin] 2024-11-14 14:38:00 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am going to town.",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\phpCCEA.tmp",
+            "error": 0,
+            "size": 47095
+        }
+    }
+}
+[14-Nov-2024 14:43:33 Europe/Berlin] 2024-11-14 14:43:33 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am going to town.",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\phpE51E.tmp",
+            "error": 0,
+            "size": 46813
+        }
+    }
+}
+[16-Nov-2024 07:26:39 Europe/Berlin] 2024-11-16 07:26:39 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am a boy",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php97CD.tmp",
+            "error": 0,
+            "size": 42069
+        }
+    }
+}
+[16-Nov-2024 07:32:37 Europe/Berlin] 2024-11-16 07:32:37 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am a boy",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\phpC5A.tmp",
+            "error": 0,
+            "size": 42069
+        }
+    }
+}
+[17-Nov-2024 08:34:40 Europe/Berlin] 2024-11-17 08:34:40 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am going to town.",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php3947.tmp",
+            "error": 0,
+            "size": 64543
+        }
+    }
+}
+[17-Nov-2024 08:38:27 Europe/Berlin] 2024-11-17 08:38:27 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am going to town.",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\phpADCD.tmp",
+            "error": 0,
+            "size": 64543
+        }
+    }
+}
+[17-Nov-2024 08:41:22 Europe/Berlin] 2024-11-17 08:41:22 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am going to town.",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php5B0C.tmp",
+            "error": 0,
+            "size": 73044
+        }
+    }
+}
+[17-Nov-2024 10:53:48 Europe/Berlin] 2024-11-17 10:53:48 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am a boy",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php9904.tmp",
+            "error": 0,
+            "size": 24446
+        }
+    }
+}
+[17-Nov-2024 11:33:56 Europe/Berlin] 2024-11-17 11:33:56 - Received POST request - Data: {
+    "POST": {
+        "sentence": "I am Kheem",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php590A.tmp",
+            "error": 0,
+            "size": 106148
+        }
+    }
+}
+[18-Nov-2024 07:48:40 Europe/Berlin] 2024-11-18 07:48:40 - Received POST request - Data: {
+    "POST": {
+        "sentence": "Iam going to the market",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php715D.tmp",
+            "error": 0,
+            "size": 39041
+        }
+    }
+}
+[18-Nov-2024 08:39:35 Europe/Berlin] 2024-11-18 08:39:35 - Received POST request - Data: {
+    "POST": {
+        "sentence": "Iam going to the market",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\phpEC7.tmp",
+            "error": 0,
+            "size": 34164
+        }
+    }
+}
+[18-Nov-2024 08:48:35 Europe/Berlin] 2024-11-18 08:48:35 - Received POST request - Data: {
+    "POST": {
+        "sentence": "Iam going to the market",
+        "language": "1"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php4BCA.tmp",
+            "error": 0,
+            "size": 64275
+        }
+    }
+}
+[21-Nov-2024 12:49:33 Europe/Berlin] 2024-11-21 12:49:33 - Received POST request - Data: {
+    "POST": {
+        "language": "1",
+        "sentence": "I am going to the market"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php1418.tmp",
+            "error": 0,
+            "size": 82778
+        }
+    }
+}
+[21-Nov-2024 12:51:43 Europe/Berlin] 2024-11-21 12:51:43 - Received POST request - Data: {
+    "POST": {
+        "language": "1",
+        "sentence": "I am going to the market"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\phpEF0.tmp",
+            "error": 0,
+            "size": 82778
+        }
+    }
+}
+[21-Nov-2024 12:52:46 Europe/Berlin] 2024-11-21 12:52:46 - Received POST request - Data: {
+    "POST": {
+        "language": "1",
+        "sentence": "He is the one who started the fight"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php690.tmp",
+            "error": 0,
+            "size": 72087
+        }
+    }
+}
+[21-Nov-2024 12:54:07 Europe/Berlin] 2024-11-21 12:54:07 - Received POST request - Data: {
+    "POST": {
+        "language": "1",
+        "sentence": "Euphoria was my best serie"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php420E.tmp",
+            "error": 0,
+            "size": 63330
+        }
+    }
+}
+[21-Nov-2024 12:54:53 Europe/Berlin] 2024-11-21 12:54:53 - Received POST request - Data: {
+    "POST": {
+        "language": "1",
+        "sentence": "This little boy will be the man tomorrow"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\phpF61D.tmp",
+            "error": 0,
+            "size": 62317
+        }
+    }
+}
+[21-Nov-2024 12:56:34 Europe/Berlin] 2024-11-21 12:56:34 - Received POST request - Data: {
+    "POST": {
+        "language": "1",
+        "sentence": "The generation is the best when it comes to chilling"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php7EE1.tmp",
+            "error": 0,
+            "size": 93465
+        }
+    }
+}
+[23-Nov-2024 08:57:29 Europe/Berlin] 2024-11-23 08:57:29 - Received POST request - Data: {
+    "POST": {
+        "sentence_id_1": "sent_1_90123",
+        "sentence_id_2": "sent_1_89012",
+        "sentence_id_3": "sent_1_78901",
+        "sentence_id_4": "sent_1_67890",
+        "sentence_id_5": "sent_1_56789"
+    },
+    "FILES": {
+        "audio_1": {
+            "name": "recording_1.ogg",
+            "full_path": "recording_1.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\php4EF2.tmp",
+            "error": 0,
+            "size": 67254
+        },
+        "audio_2": {
+            "name": "recording_2.ogg",
+            "full_path": "recording_2.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\php4EF3.tmp",
+            "error": 0,
+            "size": 63374
+        },
+        "audio_3": {
+            "name": "recording_3.ogg",
+            "full_path": "recording_3.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\php4F04.tmp",
+            "error": 0,
+            "size": 82754
+        },
+        "audio_4": {
+            "name": "recording_4.ogg",
+            "full_path": "recording_4.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\php4F05.tmp",
+            "error": 0,
+            "size": 65304
+        },
+        "audio_5": {
+            "name": "recording_5.ogg",
+            "full_path": "recording_5.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\php4F06.tmp",
+            "error": 0,
+            "size": 71090
+        }
+    }
+}
+[24-Nov-2024 07:22:14 Europe/Berlin] 2024-11-24 07:22:14 - Received POST request - Data: {
+    "POST": {
+        "sentence_id": "",
+        "sentence": "Enshozi zijwire omuzira",
+        "language": "2"
+    },
+    "FILES": []
+}
+[24-Nov-2024 07:22:46 Europe/Berlin] 2024-11-24 07:22:46 - Received POST request - Data: {
+    "POST": {
+        "sentence_id": "",
+        "sentence": "Enshozi zijwire omuzira",
+        "language": "1"
+    },
+    "FILES": []
+}
+[24-Nov-2024 07:22:59 Europe/Berlin] 2024-11-24 07:22:59 - Received POST request - Data: {
+    "POST": {
+        "sentence_id": "",
+        "sentence": "Enshozi zijwire omuzira",
+        "language": "1"
+    },
+    "FILES": []
+}
+[24-Nov-2024 07:35:30 Europe/Berlin] 2024-11-24 07:35:30 - Received POST request - Data: {
+    "POST": {
+        "sentence_id": "",
+        "sentence": "Enshozi zijwire omuzira",
+        "language": "2"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recording.ogg",
+            "full_path": "recording.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\php9A0C.tmp",
+            "error": 0,
+            "size": 55538
+        }
+    }
+}
+[24-Nov-2024 07:35:55 Europe/Berlin] 2024-11-24 07:35:55 - Received POST request - Data: {
+    "POST": {
+        "sentence_id": "",
+        "sentence": "Enshozi zijwire omuzira",
+        "language": "2"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recording.ogg",
+            "full_path": "recording.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\phpFE55.tmp",
+            "error": 0,
+            "size": 55538
+        }
+    }
+}
+[24-Nov-2024 07:58:07 Europe/Berlin] 2024-11-24 07:58:07 - Received POST request - Data: {
+    "POST": {
+        "sentence_id": "sent_1_12345",
+        "sentence": "Enshozi zijwire omuzira",
+        "language": "2"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recording.ogg",
+            "full_path": "recording.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\php500F.tmp",
+            "error": 0,
+            "size": 48759
+        }
+    }
+}
+[24-Nov-2024 08:02:17 Europe/Berlin] 2024-11-24 08:02:17 - Received POST request - Data: {
+    "POST": {
+        "sentence_id": "sent_1_12345",
+        "sentence": "Enshozi zijwire omuzira",
+        "language": "2"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recording.ogg",
+            "full_path": "recording.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\php20BF.tmp",
+            "error": 0,
+            "size": 48759
+        }
+    }
+}
+[24-Nov-2024 08:10:00 Europe/Berlin] 2024-11-24 08:10:00 - Received POST request - Data: {
+    "POST": {
+        "sentence_id": "sent_1_12345",
+        "language": "2",
+        "sentence": "Enshozi zijwire omuzira"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recording.ogg",
+            "full_path": "recording.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\php30DB.tmp",
+            "error": 0,
+            "size": 119753
+        }
+    }
+}
+[24-Nov-2024 10:45:23 Europe/Berlin] 2024-11-24 10:45:23 - Received POST request - Data: {
+    "POST": {
+        "sentence_id": "sent_1_12345",
+        "language": "2",
+        "sentence": "Enshozi zijwire omuzira"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recording.ogg",
+            "full_path": "recording.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\php743B.tmp",
+            "error": 0,
+            "size": 119753
+        }
+    }
+}
+[24-Nov-2024 11:04:17 Europe/Berlin] 2024-11-24 11:04:17 - Received POST request - Data: {
+    "POST": {
+        "sentence_id": "sent_1_12345",
+        "language": "runyankole",
+        "sentence": "Enshozi zijwire omuzira"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recording.ogg",
+            "full_path": "recording.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\phpC0A4.tmp",
+            "error": 0,
+            "size": 60379
+        }
+    }
+}
+[24-Nov-2024 11:04:17 Europe/Berlin] 2024-11-24 11:04:17 - Error in translation upload - Data: {
+    "error": "FFmpeg not found at: C:\/xampp\/htdocs\/Natural_Language\/ffmpeg\/ffmpeg.exe",
+    "trace": "#0 {main}"
+}
+[24-Nov-2024 11:06:33 Europe/Berlin] 2024-11-24 11:06:33 - Received POST request - Data: {
+    "POST": {
+        "sentence_id": "sent_1_12345",
+        "language": "runyankole",
+        "sentence": "Enshozi zijwire omuzira"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recording.ogg",
+            "full_path": "recording.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\phpD491.tmp",
+            "error": 0,
+            "size": 109918
+        }
+    }
+}
+[24-Nov-2024 11:06:35 Europe/Berlin] 2024-11-24 11:06:35 - Error in translation upload - Data: {
+    "error": "Unknown column 'status' in 'field list'",
+    "trace": "#0 C:\\xampp\\htdocs\\Natural_Language\\api\\contributor\\add_translation.php(183): mysqli->prepare('INSERT INTO sen...')\n#1 {main}"
+}
+[24-Nov-2024 11:08:38 Europe/Berlin] 2024-11-24 11:08:38 - Received POST request - Data: {
+    "POST": {
+        "sentence_id": "sent_1_12345",
+        "language": "runyankole",
+        "sentence": "Enshozi zijwire omuzira"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recording.ogg",
+            "full_path": "recording.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\phpBCF9.tmp",
+            "error": 0,
+            "size": 109918
+        }
+    }
+}
+[24-Nov-2024 11:18:13 Europe/Berlin] 2024-11-24 11:18:13 - Received POST request - Data: {
+    "POST": {
+        "sentence_id": "sent_1_93318",
+        "language": "runyankole",
+        "sentence": "Ninze omukaatale"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recording.ogg",
+            "full_path": "recording.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\php846A.tmp",
+            "error": 0,
+            "size": 54513
+        }
+    }
+}
+[26-Nov-2024 06:58:16 Europe/Berlin] 2024-11-26 06:58:16 - Received POST request - Data: {
+    "POST": {
+        "language": "1",
+        "sentence": "I am a boy"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php8483.tmp",
+            "error": 0,
+            "size": 40947
+        }
+    }
+}
+[26-Nov-2024 06:59:26 Europe/Berlin] 2024-11-26 06:59:26 - Received POST request - Data: {
+    "POST": {
+        "language": "1",
+        "sentence": "I am a boy"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php942F.tmp",
+            "error": 0,
+            "size": 40947
+        }
+    }
+}
+[26-Nov-2024 06:59:56 Europe/Berlin] 2024-11-26 06:59:56 - Received POST request - Data: {
+    "POST": {
+        "language": "1",
+        "sentence": "I am a boy"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\phpCF9.tmp",
+            "error": 0,
+            "size": 40947
+        }
+    }
+}
+[26-Nov-2024 06:59:57 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Natural_Language\api\contributor\contribute.php:198
+Stack trace:
+#0 C:\xampp\htdocs\Natural_Language\api\contributor\contribute.php(198): mysqli_stmt->bind_param('ssssii', 'sent_1_48602', 'I am a boy', '2024-11-26 06:5...', '1', '1')
+#1 {main}
+  thrown in C:\xampp\htdocs\Natural_Language\api\contributor\contribute.php on line 198
+[26-Nov-2024 07:00:53 Europe/Berlin] 2024-11-26 07:00:53 - Received POST request - Data: {
+    "POST": {
+        "language": "1",
+        "sentence": "I am called Dan"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\phpEAF7.tmp",
+            "error": 0,
+            "size": 44903
+        }
+    }
+}
+[26-Nov-2024 07:00:54 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Natural_Language\api\contributor\contribute.php:198
+Stack trace:
+#0 C:\xampp\htdocs\Natural_Language\api\contributor\contribute.php(198): mysqli_stmt->bind_param('ssssii', 'sent_1_82897', 'I am called Dan', '2024-11-26 07:0...', '1', '1')
+#1 {main}
+  thrown in C:\xampp\htdocs\Natural_Language\api\contributor\contribute.php on line 198
+[26-Nov-2024 07:02:29 Europe/Berlin] 2024-11-26 07:02:29 - Received POST request - Data: {
+    "POST": {
+        "language": "1",
+        "sentence": "I am called Dan"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php5EFA.tmp",
+            "error": 0,
+            "size": 44903
+        }
+    }
+}
+[26-Nov-2024 07:02:29 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Natural_Language\api\contributor\contribute.php:198
+Stack trace:
+#0 C:\xampp\htdocs\Natural_Language\api\contributor\contribute.php(198): mysqli_stmt->bind_param('ssssii', 'sent_1_57191', 'I am called Dan', '2024-11-26 07:0...', '1', '1')
+#1 {main}
+  thrown in C:\xampp\htdocs\Natural_Language\api\contributor\contribute.php on line 198
+[26-Nov-2024 07:05:42 Europe/Berlin] 2024-11-26 07:05:42 - Received POST request - Data: {
+    "POST": {
+        "language": "1",
+        "sentence": "I am called Dan"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php5279.tmp",
+            "error": 0,
+            "size": 44903
+        }
+    }
+}
+[26-Nov-2024 08:09:17 Europe/Berlin] 2024-11-26 08:09:17 - Received POST request - Data: {
+    "POST": {
+        "sentence_id": "sent_1_23456",
+        "language": "runyankole",
+        "sentence": "I am called Dan"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recording.ogg",
+            "full_path": "recording.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\php894F.tmp",
+            "error": 0,
+            "size": 83579
+        }
+    }
+}
+[26-Nov-2024 09:14:21 Europe/Berlin] 2024-11-26 09:14:21 - Received validation request - Data: {
+    "POST": {
+        "sentence_id": "sent_3_93318",
+        "sentence_status": "suggestion",
+        "expert_suggestion": "Ninza omukaatale"
+    }
+}
+[26-Nov-2024 09:15:13 Europe/Berlin] 2024-11-26 09:15:13 - Received validation request - Data: {
+    "POST": {
+        "sentence_id": "sent_1_07320",
+        "sentence_status": "approved",
+        "expert_suggestion": ""
+    }
+}
+[26-Nov-2024 10:09:05 Europe/Berlin] 2024-11-26 10:09:05 - Received validation request - Data: {
+    "POST": {
+        "sentence_id": "sent_3_23456",
+        "sentence_status": "rejected",
+        "expert_suggestion": ""
+    }
+}
+[26-Nov-2024 12:22:19 Europe/Berlin] 2024-11-26 12:22:19 - Received POST request - Data: {
+    "POST": {
+        "sentence_id_1": "sent_1_34567",
+        "sentence_id_2": "sent_1_01234"
+    },
+    "FILES": {
+        "audio_1": {
+            "name": "recording_1.ogg",
+            "full_path": "recording_1.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\php2625.tmp",
+            "error": 0,
+            "size": 48771
+        },
+        "audio_2": {
+            "name": "recording_2.ogg",
+            "full_path": "recording_2.ogg",
+            "type": "audio\/ogg",
+            "tmp_name": "C:\\xampp\\tmp\\php2635.tmp",
+            "error": 0,
+            "size": 55578
+        }
+    }
+}
+[26-Nov-2024 12:23:54 Europe/Berlin] 2024-11-26 12:23:54 - Received POST request - Data: {
+    "POST": {
+        "language": "2",
+        "sentence": "I am called Dan"
+    },
+    "FILES": {
+        "audio_file": {
+            "name": "recorded_audio.webm",
+            "full_path": "recorded_audio.webm",
+            "type": "audio\/webm",
+            "tmp_name": "C:\\xampp\\tmp\\php9816.tmp",
+            "error": 0,
+            "size": 46778
+        }
+    }
+}
+[26-Nov-2024 12:52:53 Europe/Berlin] 2024-11-26 12:52:53 - Received validation request - Data: {
+    "POST": {
+        "sentence_id": "sent_2_35199",
+        "sentence_status": "rejected",
+        "expert_suggestion": "my name is Dan"
+    }
+}
+[27-Nov-2024 07:41:31 Europe/Berlin] 2024-11-27 07:41:31 - Received validation request - Data: {
+    "POST": {
+        "sentence_id": "sent_1_12345",
+        "sentence_status": "suggestion",
+        "expert_suggestion": "He said something"
+    }
+}
+[03-Dec-2024 09:45:19 Europe/Berlin] 2024-12-03 09:45:19 - Received validation request - Data: {
+    "POST": {
+        "sentence_id": "sent_1_00051",
+        "sentence_status": "approved",
+        "expert_suggestion": ""
+    }
+}

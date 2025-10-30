@@ -1,0 +1,42 @@
+.user-card-hours {
+  font-weight: 100 !important;
+  font-size: 0.6em !important;
+}
+.logo a {
+  text-decoration: none;
+}
+
+.custom-gradient {
+  background-color: #343a40;
+}
+
+.icon-hover:hover {
+  transform: scale(1.1);
+}
+
+.circle-decoration {
+  width: 150px;
+  height: 150px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+  filter: blur(20px);
+}
+
+.animate-pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
